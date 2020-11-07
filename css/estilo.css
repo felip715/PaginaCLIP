@@ -1,0 +1,42 @@
+html body{
+    background-color: rgb(255, 255, 255);
+}
+
+header{
+    color: rgb(247, 239, 239);
+    background-color: rgb(41, 47, 80);
+    font-size: 36px;
+    letter-spacing: 2px;
+    text-align: center; 
+    padding: 10px;
+    margin: 15px;
+    font-weight:bolder;
+    font: sans-serif;
+}
+
+.container-lg{
+    background-color: rgb(243, 244, 247);
+    color: black;
+    margin-top: 15px;
+}
+
+nav{
+    background-color: rgb(219, 220, 223);
+    margin: 25px;
+    font-size: 22px;
+    padding: 10px;
+}
+
+html a{
+    color: black;
+    padding: 5px 10px 5px 10px;
+}
+
+footer{
+    background-color:rgb(219, 220, 223);
+    text-align: center;
+    position: static;
+    letter-spacing: 1px;
+    bottom: 0;
+    width: 100%;
+}

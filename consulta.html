@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0;">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>De Aqui</title>
+
+    <style>
+        img {
+            width: 100%;
+            height: auto;
+            max-height: 500px;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header> SE VOS </header>
+    <nav class="nav">
+
+        <a href="index.html">Adivinanza</a>
+        <a href="artistas.html">Artistas</a>
+        <a href="mascotas.html">Mascotas</a>
+        <a href="pasiones.html">Pasiones</a>
+        <a href="consulta.html">Consulta</a>
+        <a href="#contacto">Contacto</a>
+
+    </nav>
+    <section>
+
+        <div class="container-lg" >
+
+            <h5>Deje su consulta y sera respondida a la brevedad, muchas gracias</h5>
+
+            <form>
+
+                <div class="form-group">
+                    <div class="row">
+                        <label class="control-label ml-2" for="consulta">Consulta:</label>
+                        <textarea class="form-control mr-2 ml-2" id="consulta" cols="4" rows="5" placeholder="Ingrese su consulta aquí" pattern=".{6,}" title="Ingrese una consulta mas larga"></textarea>
+                    </div>
+
+                    <div class="form-group-lg form-inline mt-2">
+                        <div class="row-md form-inline">
+                            <label class="control-label mr-2" for="nombre" >Nombre:</label>
+                            <input class="form-control mr-2 " type="text" id="nombre" placeholder="Apellido y Nombre" pattern="[a-zA-Z ].{6,}" title="Ingrese solo letras y espacios"  required>
+                        </div>
+
+                        <div class="row-md form-inline">
+                            <label class="control-label mr-2 " for="correo">Email:</label>
+                            <input type="email" class="form-control mr-2" id="correo" placeholder="Correo Electrónico" required>
+                        </div>
+                    </div>
+
+                    <div style="overflow: hidden;">
+                        <input type="submit" class="btn btn-primary" style="float: right; margin: 5px;">
+                    </div>
+
+                </div>
+            </form>
+    </section>
+    <footer>Illa Felipe
+        <a name="contacto" href="mailto:felipeilla@hotmail.com">felipeilla@hotmail.com</a></footer>
+</body>
+
+</html>
